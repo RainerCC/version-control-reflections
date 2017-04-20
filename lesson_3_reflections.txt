@@ -15,3 +15,20 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branches tracks the path of different commits within the same repository.
 
 	Fork is mainly used during collaboration. Clone is for copying repo around locally or from github. Branches are for managing commits in a local repository.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It can be used as the common ancestor reference when trying to merge a remote into the local.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git or Github, collaboration can be done using online shared drives by manually copying files around and organisation versions by directory.
+	The initial setup might be faster for projects with few version changes. But as number of versions, collaborators and files increases, the complexity
+	of version control will require Git and Github to help organise and track.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When multiple people are collaborating, each branch can carry a separate feature that is independent of one another so they can be reviewed separately before merging into master.
